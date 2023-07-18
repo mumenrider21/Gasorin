@@ -27,7 +27,3 @@ function calculateBMI(weight, height) {
   var bmi = weight / (height * height);
   return bmi;
 }
-
-// BMIを計算して表示
-var bmiResult = calculateBMI(weight, height);
-console.log("あなたのBMIは " + bmiResult.toFixed(2) + " です。");
